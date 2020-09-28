@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(218, 218, 218);
+}
+
+.headerstyle{
+    padding-right: 1%;
+}
+
+.title{
+    text-align: center;
+}
+
+.navcolor{
+    background-color: maroon;
+}
+
+.stickynav{
+    position: fixed;
+    top: 0;
+    overflow: visible;
+    z-index: 50;
+}
+
+.container{
+    display: block;
+    margin: 0 auto;
+}
+
+.centerbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
