@@ -21,23 +21,36 @@ body{
     z-index: 50;
 }
 
-img{
-    height: 500px;
-    width: 100%;
-    margin-top: 3%;
+.textcenter{
+    text-align: center;
 }
 
-li{
-    list-style-type: circle;
+img{
+    height: 50vh;
+    width: 100%;
+    margin-top: 3%;
 }
 
 .container{
     border: 1px solid black;
     margin-top: 3%;
+    /* padding: 30px 50px 50px 50px; */
 }
 
 .generatorbuttons{
     display: flex;
     justify-content: center;
     margin-top: 3%;
+}
+
+@media screen and (max-width: 800px){
+    img{
+        height: 25vh;
+    }
+}
+
+@media screen and (max-width: 400px){
+    img{
+        height: 20vh;
+    }
 }
