@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(218, 218, 218);
+    /* background-color: rgb(218, 218, 218); */
 }
 
 .headerstyle{
@@ -21,12 +21,22 @@ body{
     z-index: 50;
 }
 
-.container{
-    display: block;
-    margin: 0 auto;
+.image{
+    height: 250px;
+    width: 250px;
+    margin-top: 3%;
 }
 
-.centerbutton{
+li{
+    list-style-type: circle;
+}
+
+.container{
+    /* border: 1px solid black;
+    margin-top: 3%; */
+}
+
+.generatorbuttons{
     display: flex;
     justify-content: center;
     margin-top: 3%;
