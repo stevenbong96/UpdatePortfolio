@@ -1,5 +1,5 @@
 body{
-    /* background-color: rgb(218, 218, 218); */
+    background-color: rgb(238, 238, 238);
 }
 
 .headerstyle{
@@ -10,8 +10,12 @@ body{
     text-align: center;
 }
 
-.navcolor{
+.maroon{
     background-color: maroon;
+}
+
+hr{
+    height: 5px;
 }
 
 .stickynav{
@@ -34,7 +38,12 @@ img{
 .container{
     border: 1px solid black;
     margin-top: 3%;
-    /* padding: 30px 50px 50px 50px; */
+    padding: 30px 50px 50px 50px;
+    margin-bottom: 3%;
+}
+
+.project{
+    padding-top: 3%;
 }
 
 .generatorbuttons{
