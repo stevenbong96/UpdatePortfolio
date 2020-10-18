@@ -1,9 +1,39 @@
-# UpdatePortfolio
-Week 5 HW#1
+# Portfolio Generator
 
-Link to Github repo: https://github.com/stevenbong96/UpdatePortfolio
-Link to Github deploy: https://stevenbong96.github.io/UpdatePortfolio/
-The purpose of this HW is to create the first step in making your portfolio and submit it to the career center. The main objective of this portfolio is to promote yourself with the contributions that you have made during your time at this Coding Bootcamp. To allow the Career Service assists further, provide a sample of your projects and couple of HW to demonstrate the skills and your understanding in using variety of programming languages.
+## Description 
+    
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-Below you will find the screenshot of my current portfolio:
-![Portfolio](./screenshot.JPG) 
+## Installation 
+  
+## Usage 
+  
+![Example Instructions](./demo.gif)
+  
+## Contributions
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md) 
+
+![Contributors Badge](https://img.shields.io/github/contributors/stevenbong96/UpdatePortfolio?label=Total%20Contributors)
+
+Language Contributions
+
+![Top Languages](https://img.shields.io/github/languages/top/stevenbong96/UpdatePortfolio)
+
+![Total Language](https://img.shields.io/github/languages/count/stevenbong96/UpdatePortfolio)
+
+To use the badges, feel free to check [shields.io](https://shields.io/) website for variety of badges
+
+## Test Instruction 
+
+
+## License 
+  
+MIT License
+
+## Application Screenshot
+
+![Screenshot](./screenshot.JPG)
