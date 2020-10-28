@@ -1,62 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Updated Portfolio</title>
 
     <!-- Link to CSS files -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="../CSS/style.css">
+
+    <!-- Link to icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light maroon">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
+        <nav>
+            <div class="nav-wrapper headBG">
+                <!-- <a href="#!" class="brand-logo">Logo</a> -->
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </div>
-          </nav>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
     </header>
 
     <!-- About Me Main Part -->
     <div class="container contact-height">
-        <!-- One main row -->
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">email</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">phone</i>
+                      <input id="icon_telephone" type="tel" class="validate">
+                      <label for="icon_telephone">Telephone</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">mode_edit</i>
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Textarea</label>
+                    </div>
+                  </div>
+            </form>
+        </div>
+        <!-- One main row
         <section class="row">
             <section class="col-md-12">
-            <!-- Portfolio Header -->
+            Portfolio Header
             <h1>Contact</h1> 
-            <!-- Gray Line -->
+            Gray Line
             <hr>
-                <!-- Contact Form -->
+                Contact Form
                 <form>
-                    <!-- Name input -->
+                    Name input
                     <section class="form-group">
                         <label for="exampleFormControlInput1">Name</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
                     </section>
 
-                    <!-- Email input -->
+                    Email input
                     <section class="form-group">
                         <label for="exampleFormControlInput1">Email</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
                     </section>
                     
-                    <!-- Message input -->
+                    Message input
                     <section class="form-group">
                         <label for="exampleFormControlTextarea1">Messsage</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Message</textarea>
@@ -64,15 +102,20 @@
 
                 </form>
             </section>
-        </section>
+        </section> -->
 
         <!-- Submit button -->
         <button>Submit</button>
     </div>
 
+    <!-- Link to jQuery file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Compressed JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
     <!-- Link to JS files -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="../JS/script.js"></script>
 </body>
+
 </html>

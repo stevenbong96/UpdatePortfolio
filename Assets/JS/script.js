@@ -16,4 +16,7 @@ $(document).ready(function () {
 
     // Add tooltips
     $('.tooltipped').tooltip();
+
+    $('.carousel').carousel();
 });
+

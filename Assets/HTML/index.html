@@ -1,55 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Updated Portfolio</title>
 
     <!-- Link to CSS files -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light maroon">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
+        <nav>
+            <div class="nav-wrapper headBG">
+                <!-- <a href="#!" class="brand-logo">Logo</a> -->
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </div>
-          </nav>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
     </header>
+
+    <!-- Carousel Opening -->
+    <div class="carousel carousel-slider center titleBG">
+        <div class="carousel-item white-text homepic">
+            <h1 class="textcenter titletext">Welcome to Steven Bong's Portfolio</h1>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <div class="row textcenter">
-                    <h3>Steven Bong's Portfolio</h3>
-                </div>
-
-                <hr>
-
+            <div class="col-sm-12 platformTitle">
+                <h3>Link to my profile for different platform: </h3>
                 <div class="row">
-                    <div class="col-sm-4 textcenter">
+                    <div class="col s4 textcenter">
                         <a href="https://github.com/stevenbong96" target="_blank">Link to Github</a>
                     </div>
-                    <div class="col-sm-4 textcenter">
+                    <div class="col s4 textcenter">
                         <a href="https://www.linkedin.com/in/steven-bong-ab461213a" target="_blank">Link to Linkedin</a>
                     </div>
-                    <div class="col-sm-4 textcenter">
+                    <div class="col s4 textcenter">
                         <a href="./BootcampResume.pdf" target="_blank">Link to resume</a>
                     </div>
                 </div>
@@ -58,44 +59,55 @@
                     <h3>List of projects:</h3>
                     <div class="col-sm-12">
                         <div class="row">
-                            <ul>
-                                <li>nDecisive</li>
-                                    <div class="col-sm-12">
-                                        <li>Link to website: <a href="https://maxhanson07.github.io/Indecisive/" target="_blank">here</a></li>
-                                        <li>Link to Github repo: <a href="https://github.com/MaxHanson07/Indecisive" target="_blank">here</a></li>
-                                        <img src="../../Images/nDecisive.JPG" alt="nDecisive Screenshot">
+                            <div class="col s4 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="../../Images/nDecisive.JPG">
+                                        <span class="card-title">Indecisive</span>
                                     </div>
-
-                                    <br>
-
-                                <li>Weather Dashboard</li>
-                                    <div class="col-sm-12">
-                                        <li>Link to website: <a href="https://stevenbong96.github.io/WeatheringWithUser/" target="_blank">here</a></li>
-                                        <li>Link to Github repo: <a href="https://github.com/stevenbong96/WeatheringWithUser" target="_blank">here</a></li>
-                                        <img src="../../Images/WeatherDashboard.JPG" alt="weather screenshot">
+                                    <div class="card-content">
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
                                     </div>
-
-                                    <br>
-
-                                <li>Activity Planner</li>
-                                    <div class="col-sm-12">
-                                        <li>Link to website: <a href="https://stevenbong96.github.io/ActivityPlanner/" target="_blank">here</a></li>
-                                        <li>Link to Github repo: <a href="https://github.com/stevenbong96/ActivityPlanner" target="_blank">here</a></li>
-                                        <img src="../../Images/ActivityPlanner.JPG" alt="activity planner screenhot">
+                                    <div class="card-action">
+                                        <a href="https://maxhanson07.github.io/Indecisive/" target="_blank">Deployed Website</a>
+                                        <a href="https://github.com/MaxHanson07/Indecisive" target="_blank">Github</a>
                                     </div>
-                                <!-- <li>Quiz Application</li>
-                                    <div class="col-sm-12">
-                                        <li>Link to website: <a href="https://stevenbong96.github.io/QuizGame/" target="_blank">here</a></li>
-                                        <li>Link to Github repo: <a href="https://github.com/stevenbong96/QuizGame" target="_blank">here</a></li>
-                                        <img src="../../Images/QuizApp.JPG" alt="quiz screenshot">
+                                </div>
+                            </div>
+
+                            <div class="col s4 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="../../Images/personify.png">
+                                        <span class="card-title">Personify</span>
                                     </div>
-                                <li>Password Generator</li>
-                                    <div class="col-sm-12">
-                                        <li>Link to website: <a href="https://github.com/stevenbong96/PasswordGenerator" target="_blank">here</a></li>
-                                        <li>Link to Github repo: <a href="https://github.com/stevenbong96/PasswordGenerator" target="_blank">here</a></li>
-                                        <img src="../../Images/Password.JPG" alt="password generator screenshot">
-                                    </div> -->
-                            </ul>
+                                    <div class="card-content">
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="https://personify-personality-quiz.herokuapp.com/" target="_blank">Deployed Website</a>
+                                        <a href="https://github.com/emilygoeres/Personality-Quiz" target="_blank">Github</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col s4 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="#">
+                                        <span class="card-title">Coming Soon!</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>Coming Soon!</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="https://maxhanson07.github.io/Indecisive/" target="_blank">Deployed Website</a>
+                                        <a href="https://github.com/MaxHanson07/Indecisive" target="_blank">Github</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -103,9 +115,17 @@
         </div>
     </div>
 
+    <footer>
+        <h6>Thank you for visiting!</h6>
+    </footer>
+    <!-- Link to jQuery file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Compressed JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
     <!-- Link to JS files -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="../JS/script.js"></script>
 </body>
+
 </html>

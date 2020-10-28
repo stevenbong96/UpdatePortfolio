@@ -6,8 +6,25 @@ body{
     padding-right: 1%;
 }
 
-.title{
+.headBG{
+    background-color: black;
+}
+
+.title, footer{
     text-align: center;
+}
+
+.titletext{
+    margin-top: 5%;
+}
+
+.platformTitle{
+    text-align: center;
+}
+
+.titleBG{
+    background-color: #7cffcb;
+    background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
 }
 
 .maroon{
@@ -30,13 +47,13 @@ hr{
 }
 
 img{
-    height: 50vh;
+    height: 25vh;
     width: 100%;
     margin-top: 3%;
 }
 
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 3%;
     padding: 30px 50px 50px 50px;
     margin-bottom: 3%;
@@ -46,10 +63,22 @@ img{
     padding-top: 3%;
 }
 
+button{
+    padding: 10px 15px 10px 15px;
+    background-color: gray;
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
 .generatorbuttons{
     display: flex;
     justify-content: center;
     margin-top: 3%;
+}
+
+.introBG{
+    background-color: purple;
 }
 
 @media screen and (max-width: 800px){
