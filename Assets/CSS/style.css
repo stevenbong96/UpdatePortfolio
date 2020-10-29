@@ -46,17 +46,33 @@ hr{
     text-align: center;
 }
 
-img{
-    height: 20vh;
+.projectImg{
+    height: 25vh;
     width: 100%;
     margin-top: 3%;
 }
 
+.homeworkImg{
+    height: 17vh;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.githubImg, .linkedinImg{
+    height: 10vh;
+    width: 75%;
+}
+
 .container{
     /* border: 1px solid black; */
-    margin-top: 3%;
-    padding: 30px 50px 50px 50px;
-    margin-bottom: 3%;
+    /* margin-top: 10%; */
+    /* padding: 30px 50px 50px 50px; */
+    /* margin-bottom: 10%; */
+}
+
+.aboutMe{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .project{
@@ -77,18 +93,14 @@ button{
     margin-top: 3%;
 }
 
-.introBG{
-    background-color: purple;
-}
-
 @media screen and (max-width: 800px){
-    img{
-        height: 25vh;
+    .projectImg, .homeworkImg{
+        height: 15vh;
     }
 }
 
 @media screen and (max-width: 400px){
-    img{
-        height: 20vh;
+    .projectImg, .homeworkImg{
+        height: 10vh;
     }
 }
