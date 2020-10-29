@@ -22,16 +22,18 @@
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
 
         <ul class="sidenav" id="mobile-demo">
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
 
@@ -42,13 +44,24 @@
         </div>
     </div>
 
+    <!-- Background -->
+    <div class="container platformTitle" id="aboutMe">
+        <h3>About Me</h3>
+        <div class="row">
+            <p>A full stack web developer with demonstrated experience as a Civil Drafter for a year and have background in Mechanical Engineering. A detail-oriented engineer who is effective to perform problem solving assignments within guidelines. Dedicated to keep learning, adjust, and grow to achieve success in the competitive industry</p>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Type of Person -->
     <div class="container platformTitle">
         <h3>Type of Person</h3>
         <div class="row">
             <div class="col s4">
                 <div class="center promo promo-example">
                     <i class="material-icons large">filter_list</i>
-                    <p class="promo-caption">-</p>
+                    <p class="promo-caption">Detail Oriented</p>
                     <p class="light center">
                         -
                     </p>
@@ -79,7 +92,8 @@
 
     <div class="divider"></div>
 
-    <div class="container">
+    <!-- Project -->
+    <div class="container" id="portfolio">
         <div class="row">
             <div class="col-sm-12 platformTitle">
                 <!-- List of Projects -->
@@ -173,6 +187,7 @@
 
     <div class="divider"></div>
 
+    <!-- Homework Challenges -->
     <div class="container">
         <div class="row">
             <div class="col-sm-12 platformTitle">
@@ -325,284 +340,84 @@
 
     <div class="divider"></div>
 
-    <div class="container">
+    <!-- About Me Main Part -->
+    <div class="container contact-height platformTitle" id="contact">
+        <h3>Contact Information</h3>
+
+        <br>
+        <br>
+
         <div class="row">
-            <div class="col-sm-12 platformTitle">
+            <div class="col s3 m3 platformTitle">
                 <!-- Social Media -->
                 <div class="row">
-                    <h3>Connect me on</h3>
                     <div class="row">
-                        <div class="col s4 textcenter">
+                        <div class="col s6 textcenter">
                             <a href="https://github.com/stevenbong96" target="_blank">Link to Github</a>
                         </div>
-                        <div class="col s4 textcenter">
+                        <div class="col s6 textcenter">
                             <a href="https://www.linkedin.com/in/steven-bong-ab461213a" target="_blank">Link to Linkedin</a>
-                        </div>
-                        <div class="col s4 textcenter">
-                            <a href="./BootcampResume.pdf" target="_blank">Link to resume</a>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <div class="col s1 m1 platformTitle">
+                
+            </div>
+
+            <div class="col s8 m8">
+                <form>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">email</i>
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">phone</i>
+                          <input id="icon_telephone" type="tel" class="validate">
+                          <label for="icon_telephone">Telephone</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">mode_edit</i>
+                          <textarea id="textarea1" class="materialize-textarea"></textarea>
+                          <label for="textarea1">Textarea</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
+        
+
+        <!-- Submit button -->
+        <button>Submit</button>
     </div>
 
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-sm-12 platformTitle">
-
-                List of Projects
-                <div class="row project">
-                    <h3>~List of projects~</h3>
-                    <div class="col-sm-12">
-                        <h6>~BootCamp Projects~</h6>
-                        <div class="row">
-                            <div class="col s4 m4">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="../../Images/nDecisive.JPG">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">Indecisive</span>
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://maxhanson07.github.io/Indecisive/" target="_blank">Deployed Website</a>
-                                        <a href="https://github.com/MaxHanson07/Indecisive" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col s4 m4">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="../../Images/personify.png">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">Personify</span>
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://personify-personality-quiz.herokuapp.com/" target="_blank">Deployed Website</a>
-                                        <a href="https://github.com/emilygoeres/Personality-Quiz" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col s4 m4">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="#">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">Coming Soon!</span>
-                                        <p>-</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="#" target="_blank">Deployed Website</a>
-                                        <a href="#" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h6>~Personal Projects~</h6>
-                        <div class="row">
-                            <div class="col s4 m4">
-                                
-                            </div>
-
-                            <div class="col s4 m4">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="#">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">E-Commerce</span>
-                                        <p>In Progress!</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="#" target="_blank">Deployed Website</a>
-                                        <a href="#" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col s4 m4">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                List of HW
-                <div class="row">
-                    <h3>~Homework Challenges that I've worked with~</h3>
-                    <div class="col-sm-12">
-                        <h6>~Back End Homework~</h6>
-                        <div class="row">
-                            <div class="col s3 m3">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="../../Images/handlebars.jpg">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">Handlebars</span>
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://github.com/stevenbong96/WABHndlBars" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col s3 m3">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="#">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">Employee Generator</span>
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://github.com/stevenbong96/EmployeeGenerator" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col s3 m3">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="#">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">Note Takers</span>
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://github.com/stevenbong96/NoteGen" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col s3 m3">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="#">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">Profile Generator</span>
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://github.com/stevenbong96/ProfileGen" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h6>~Front End Homework~</h6>
-                        <div class="row">
-                            <div class="col s3 m3">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="../../Images/WeatherDashboard.JPG">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">Weathering With User</span>
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://stevenbong96.github.io/WeatheringWithUser/" target="_blank">Deployed Website</a>
-                                        <a href="https://github.com/stevenbong96/WeatheringWithUser" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col s3 m3">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="../../Images/ActivityPlanner.JPG">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">Activity Planner</span>
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://stevenbong96.github.io/ActivityPlanner/" target="_blank">Deployed Website</a>
-                                        <a href="https://github.com/stevenbong96/ActivityPlanner" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col s3 m3">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="../../Images/QuizApp.JPG">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">Quiz Game</span>
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://stevenbong96.github.io/QuizGame/" target="_blank">Deployed Website</a>
-                                        <a href="https://github.com/stevenbong96/QuizGame" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col s3 m3">
-                                <div class="card hoverable">
-                                    <div class="card-image">
-                                        <img src="../../Images/Password.JPG">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title">Password Generator</span>
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://stevenbong96.github.io/PasswordGenerator/index.html" target="_blank">Deployed Website</a>
-                                        <a href="https://github.com/stevenbong96/PasswordGenerator" target="_blank">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                Social Media
-                <div class="row">
-                    <h3>Link to my profile for different platform: </h3>
-                    <div class="row">
-                        <div class="col s4 textcenter">
-                            <a href="https://github.com/stevenbong96" target="_blank">Link to Github</a>
-                        </div>
-                        <div class="col s4 textcenter">
-                            <a href="https://www.linkedin.com/in/steven-bong-ab461213a" target="_blank">Link to Linkedin</a>
-                        </div>
-                        <div class="col s4 textcenter">
-                            <a href="./BootcampResume.pdf" target="_blank">Link to resume</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
+    <div class="divider"></div>
+    
     <footer>
         <h6>Thank you for visiting!</h6>
     </footer>
+    
     <!-- Link to jQuery file -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
