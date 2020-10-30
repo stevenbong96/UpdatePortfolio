@@ -35,4 +35,4 @@ MIT License
 
 ## Application Screenshot
 
-![Screenshot](./screenshot.JPG)
+![Screenshot](./Images/screenshot.JPG)
